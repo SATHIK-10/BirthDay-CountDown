@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', 'san-serif';
+}
+
+body {
+    font-size: 45px;
+    position: relative;
+    bottom: 110px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('sathik1.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 450px;
+}
+
+#counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    word-spacing: 20px;
+    gap: 40px;
+}
+
+p {
+    font-size: 22px;
+}
+
+#bday {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.box {
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: transparent;
+}
+
+.box h2 {
+    font-size: 50px;
+}
+
+small {
+    font-weight: bolder;
+    font-size: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+    body {
+        background-image: url('sathik1.png');
+        background-size: cover;
+        background-position: center;
+    }
+
+    p {
+        font-size: 45px;
+    }
+
+    .box h2 {
+        font-size: 65px;
+        font-weight: bolder;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url('sathik1.png');
+        background-size: cover;
+        background-position: center;
+    }
+
+    p {
+        font-size: 45px;
+    }
+
+    .box h2 {
+        font-size: 55px;
+        font-weight: bolder;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-image: url('sathik1.png');
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+
+    .bday {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 35px;
+    }
+
+    .box h2 {
+        font-size: 45px;
+        font-weight: bolder;
+    }
+}
+
+@media (max-width: 360px) {
+    body {
+        text-align: center;
+        background-image: url('sathik1.png');
+        background-size: cover;
+        background-position: center;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    .box h2 {
+        font-size: 45px;
+        font-weight: bolder;
+    }
+
+    small {
+        font-size: 25px;
+        
+    }
+}
