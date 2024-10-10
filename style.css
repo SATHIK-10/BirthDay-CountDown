@@ -126,16 +126,16 @@ small {
     }
 
     p {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .box h2 {
-        font-size: 45px;
+        font-size: 25px;
         font-weight: bolder;
     }
 
     small {
-        font-size: 25px;
+        font-size: 20px;
         
     }
 }
