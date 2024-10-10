@@ -116,7 +116,8 @@ small {
         font-weight: bolder;
     }
     small{
-    font-size:15px;}
+    font-size:15px;
+    }
 }
 
 @media (max-width: 360px) {
@@ -137,7 +138,7 @@ small {
     }
 
     small {
-        font-size: 20px;
+        font-size: 15px;
         
     }
 }
